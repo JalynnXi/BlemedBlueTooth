@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66A09DF01D813C5C004D2E2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A09DEF1D813C5C004D2E2F /* main.m */; };
+		66A09DF31D813C5C004D2E2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A09DF21D813C5C004D2E2F /* AppDelegate.m */; };
+		66A09DF61D813C5C004D2E2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A09DF51D813C5C004D2E2F /* ViewController.m */; };
+		66A09DF91D813C5C004D2E2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A09DF71D813C5C004D2E2F /* Main.storyboard */; };
+		66A09DFB1D813C5C004D2E2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A09DFA1D813C5C004D2E2F /* Assets.xcassets */; };
+		66A09DFE1D813C5C004D2E2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A09DFC1D813C5C004D2E2F /* LaunchScreen.storyboard */; };
+		66A09E091D813C5C004D2E2F /* BlemedBlueToothTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A09E081D813C5C004D2E2F /* BlemedBlueToothTests.m */; };
+		66A09E141D813C5C004D2E2F /* BlemedBlueToothUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A09E131D813C5C004D2E2F /* BlemedBlueToothUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66A09E051D813C5C004D2E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66A09DE31D813C5C004D2E2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66A09DEA1D813C5C004D2E2F;
+			remoteInfo = BlemedBlueTooth;
+		};
+		66A09E101D813C5C004D2E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66A09DE31D813C5C004D2E2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66A09DEA1D813C5C004D2E2F;
+			remoteInfo = BlemedBlueTooth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66A09DEB1D813C5C004D2E2F /* BlemedBlueTooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlemedBlueTooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A09DEF1D813C5C004D2E2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66A09DF11D813C5C004D2E2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66A09DF21D813C5C004D2E2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66A09DF41D813C5C004D2E2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66A09DF51D813C5C004D2E2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66A09DF81D813C5C004D2E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66A09DFA1D813C5C004D2E2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66A09DFD1D813C5C004D2E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66A09DFF1D813C5C004D2E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66A09E041D813C5C004D2E2F /* BlemedBlueToothTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlemedBlueToothTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A09E081D813C5C004D2E2F /* BlemedBlueToothTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlemedBlueToothTests.m; sourceTree = "<group>"; };
+		66A09E0A1D813C5C004D2E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66A09E0F1D813C5C004D2E2F /* BlemedBlueToothUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlemedBlueToothUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A09E131D813C5C004D2E2F /* BlemedBlueToothUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlemedBlueToothUITests.m; sourceTree = "<group>"; };
+		66A09E151D813C5C004D2E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66A09DE81D813C5C004D2E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A09E011D813C5C004D2E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A09E0C1D813C5C004D2E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66A09DE21D813C5C004D2E2F = {
+			isa = PBXGroup;
+			children = (
+				66A09DED1D813C5C004D2E2F /* BlemedBlueTooth */,
+				66A09E071D813C5C004D2E2F /* BlemedBlueToothTests */,
+				66A09E121D813C5C004D2E2F /* BlemedBlueToothUITests */,
+				66A09DEC1D813C5C004D2E2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66A09DEC1D813C5C004D2E2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66A09DEB1D813C5C004D2E2F /* BlemedBlueTooth.app */,
+				66A09E041D813C5C004D2E2F /* BlemedBlueToothTests.xctest */,
+				66A09E0F1D813C5C004D2E2F /* BlemedBlueToothUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66A09DED1D813C5C004D2E2F /* BlemedBlueTooth */ = {
+			isa = PBXGroup;
+			children = (
+				66A09DF11D813C5C004D2E2F /* AppDelegate.h */,
+				66A09DF21D813C5C004D2E2F /* AppDelegate.m */,
+				66A09DF41D813C5C004D2E2F /* ViewController.h */,
+				66A09DF51D813C5C004D2E2F /* ViewController.m */,
+				66A09DF71D813C5C004D2E2F /* Main.storyboard */,
+				66A09DFA1D813C5C004D2E2F /* Assets.xcassets */,
+				66A09DFC1D813C5C004D2E2F /* LaunchScreen.storyboard */,
+				66A09DFF1D813C5C004D2E2F /* Info.plist */,
+				66A09DEE1D813C5C004D2E2F /* Supporting Files */,
+			);
+			path = BlemedBlueTooth;
+			sourceTree = "<group>";
+		};
+		66A09DEE1D813C5C004D2E2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66A09DEF1D813C5C004D2E2F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66A09E071D813C5C004D2E2F /* BlemedBlueToothTests */ = {
+			isa = PBXGroup;
+			children = (
+				66A09E081D813C5C004D2E2F /* BlemedBlueToothTests.m */,
+				66A09E0A1D813C5C004D2E2F /* Info.plist */,
+			);
+			path = BlemedBlueToothTests;
+			sourceTree = "<group>";
+		};
+		66A09E121D813C5C004D2E2F /* BlemedBlueToothUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66A09E131D813C5C004D2E2F /* BlemedBlueToothUITests.m */,
+				66A09E151D813C5C004D2E2F /* Info.plist */,
+			);
+			path = BlemedBlueToothUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66A09DEA1D813C5C004D2E2F /* BlemedBlueTooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66A09E181D813C5C004D2E2F /* Build configuration list for PBXNativeTarget "BlemedBlueTooth" */;
+			buildPhases = (
+				66A09DE71D813C5C004D2E2F /* Sources */,
+				66A09DE81D813C5C004D2E2F /* Frameworks */,
+				66A09DE91D813C5C004D2E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlemedBlueTooth;
+			productName = BlemedBlueTooth;
+			productReference = 66A09DEB1D813C5C004D2E2F /* BlemedBlueTooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66A09E031D813C5C004D2E2F /* BlemedBlueToothTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66A09E1B1D813C5C004D2E2F /* Build configuration list for PBXNativeTarget "BlemedBlueToothTests" */;
+			buildPhases = (
+				66A09E001D813C5C004D2E2F /* Sources */,
+				66A09E011D813C5C004D2E2F /* Frameworks */,
+				66A09E021D813C5C004D2E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66A09E061D813C5C004D2E2F /* PBXTargetDependency */,
+			);
+			name = BlemedBlueToothTests;
+			productName = BlemedBlueToothTests;
+			productReference = 66A09E041D813C5C004D2E2F /* BlemedBlueToothTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66A09E0E1D813C5C004D2E2F /* BlemedBlueToothUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66A09E1E1D813C5C004D2E2F /* Build configuration list for PBXNativeTarget "BlemedBlueToothUITests" */;
+			buildPhases = (
+				66A09E0B1D813C5C004D2E2F /* Sources */,
+				66A09E0C1D813C5C004D2E2F /* Frameworks */,
+				66A09E0D1D813C5C004D2E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66A09E111D813C5C004D2E2F /* PBXTargetDependency */,
+			);
+			name = BlemedBlueToothUITests;
+			productName = BlemedBlueToothUITests;
+			productReference = 66A09E0F1D813C5C004D2E2F /* BlemedBlueToothUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66A09DE31D813C5C004D2E2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JalynnXi;
+				TargetAttributes = {
+					66A09DEA1D813C5C004D2E2F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					66A09E031D813C5C004D2E2F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 66A09DEA1D813C5C004D2E2F;
+					};
+					66A09E0E1D813C5C004D2E2F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 66A09DEA1D813C5C004D2E2F;
+					};
+				};
+			};
+			buildConfigurationList = 66A09DE61D813C5C004D2E2F /* Build configuration list for PBXProject "BlemedBlueTooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66A09DE21D813C5C004D2E2F;
+			productRefGroup = 66A09DEC1D813C5C004D2E2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66A09DEA1D813C5C004D2E2F /* BlemedBlueTooth */,
+				66A09E031D813C5C004D2E2F /* BlemedBlueToothTests */,
+				66A09E0E1D813C5C004D2E2F /* BlemedBlueToothUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66A09DE91D813C5C004D2E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A09DFE1D813C5C004D2E2F /* LaunchScreen.storyboard in Resources */,
+				66A09DFB1D813C5C004D2E2F /* Assets.xcassets in Resources */,
+				66A09DF91D813C5C004D2E2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A09E021D813C5C004D2E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A09E0D1D813C5C004D2E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66A09DE71D813C5C004D2E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A09DF61D813C5C004D2E2F /* ViewController.m in Sources */,
+				66A09DF31D813C5C004D2E2F /* AppDelegate.m in Sources */,
+				66A09DF01D813C5C004D2E2F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A09E001D813C5C004D2E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A09E091D813C5C004D2E2F /* BlemedBlueToothTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A09E0B1D813C5C004D2E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A09E141D813C5C004D2E2F /* BlemedBlueToothUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66A09E061D813C5C004D2E2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66A09DEA1D813C5C004D2E2F /* BlemedBlueTooth */;
+			targetProxy = 66A09E051D813C5C004D2E2F /* PBXContainerItemProxy */;
+		};
+		66A09E111D813C5C004D2E2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66A09DEA1D813C5C004D2E2F /* BlemedBlueTooth */;
+			targetProxy = 66A09E101D813C5C004D2E2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66A09DF71D813C5C004D2E2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66A09DF81D813C5C004D2E2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66A09DFC1D813C5C004D2E2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66A09DFD1D813C5C004D2E2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66A09E161D813C5C004D2E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66A09E171D813C5C004D2E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66A09E191D813C5C004D2E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlemedBlueTooth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JalynnXi.BlemedBlueTooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66A09E1A1D813C5C004D2E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlemedBlueTooth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JalynnXi.BlemedBlueTooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		66A09E1C1D813C5C004D2E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlemedBlueToothTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JalynnXi.BlemedBlueToothTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlemedBlueTooth.app/BlemedBlueTooth";
+			};
+			name = Debug;
+		};
+		66A09E1D1D813C5C004D2E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlemedBlueToothTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JalynnXi.BlemedBlueToothTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlemedBlueTooth.app/BlemedBlueTooth";
+			};
+			name = Release;
+		};
+		66A09E1F1D813C5C004D2E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlemedBlueToothUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JalynnXi.BlemedBlueToothUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlemedBlueTooth;
+			};
+			name = Debug;
+		};
+		66A09E201D813C5C004D2E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlemedBlueToothUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JalynnXi.BlemedBlueToothUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlemedBlueTooth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66A09DE61D813C5C004D2E2F /* Build configuration list for PBXProject "BlemedBlueTooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A09E161D813C5C004D2E2F /* Debug */,
+				66A09E171D813C5C004D2E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66A09E181D813C5C004D2E2F /* Build configuration list for PBXNativeTarget "BlemedBlueTooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A09E191D813C5C004D2E2F /* Debug */,
+				66A09E1A1D813C5C004D2E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66A09E1B1D813C5C004D2E2F /* Build configuration list for PBXNativeTarget "BlemedBlueToothTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A09E1C1D813C5C004D2E2F /* Debug */,
+				66A09E1D1D813C5C004D2E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66A09E1E1D813C5C004D2E2F /* Build configuration list for PBXNativeTarget "BlemedBlueToothUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A09E1F1D813C5C004D2E2F /* Debug */,
+				66A09E201D813C5C004D2E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66A09DE31D813C5C004D2E2F /* Project object */;
+}
