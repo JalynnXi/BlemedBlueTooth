@@ -6,6 +6,7 @@
 //  Copyright © 2016年 JalynnXi. All rights reserved.
 //
 
+//Read me：This is the iOS program for WalkEEG
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
